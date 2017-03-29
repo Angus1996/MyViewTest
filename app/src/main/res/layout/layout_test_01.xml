@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Venus:"/>
+
+            <SeekBar
+                android:id="@+id/skVenus"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:progress="8"
+                android:max="100"/>
+
+            <TextView
+                android:id="@+id/txtVenus"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Earth:"/>
+
+            <SeekBar
+                android:id="@+id/skEarth"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:progress="10"
+                android:max="100"/>
+
+            <TextView
+                android:id="@+id/txtEarth"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Length:"/>
+
+            <SeekBar
+                android:id="@+id/skLength"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:progress="500"
+                android:max="1000"/>
+
+            <TextView
+                android:id="@+id/txtLength"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>
